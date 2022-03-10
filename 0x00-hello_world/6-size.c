@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unisd.h>
 
 /**
  *main - Entry point
@@ -15,7 +16,7 @@ float afloat;
 
 printf("Size of a char: %lu byte(s)\n", sizeof(achar));
 printf("Size of an int: %lu byte(S)\n", sizeof(anint));
-printf("Size of a long int: %lu byte(s)\n", sizeof(along));
+printf("Size of a long int: %lu byte(s)\n", 100, sizeof(along));
 printf("Size of a long long int: %lu byte(s)\n", sizeof(along_2));
 printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
 
