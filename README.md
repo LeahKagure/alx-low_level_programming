@@ -1,1 +1,1 @@
-New readme file for repository
+This repository contains low level programming projects folders.
