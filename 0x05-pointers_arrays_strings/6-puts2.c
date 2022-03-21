@@ -1,24 +1,20 @@
 #include "main.h"
 
 /**
- * puts2 - print characte
- * @str: input string
- *
- * Description: prints character of a string, starting first character
- * Return: Always (0)
+ * puts2 - print one char out of 2 of a string
+ * @str: char array string type
+ * Description: Print 1st char, then 3rd, then 5th, etc..
  */
 
 void puts2(char *str)
 {
 	int i;
 
-	while (str[i] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
-		{
 			_putchar(str[i]);
-		}
-		i++;
 	}
 	_putchar('\n');
+
 }
