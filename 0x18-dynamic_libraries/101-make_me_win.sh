@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp/ https://github.com/LeahKagure/alx-low_level_programming/tree/main/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+gcc *.o -shared -o 4libc.so
+LD_PRELOAD=$PWD/4libc.so
